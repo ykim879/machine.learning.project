@@ -1,5 +1,3 @@
-# Analyzing CO2 Levels and Electric Car Sales 
-## Yiyeon Kim, William Barnes, Jeong Hun Lee, Bandhan Patel 
 
 ### Introduction/Background 
 
@@ -16,3 +14,5 @@ Lowering CO2 emission is one of the most pressing struggles in the automotive in
 
 
 ### Discussion
+
+### References

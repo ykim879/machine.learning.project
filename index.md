@@ -17,4 +17,12 @@ This project is relating electric vehicle (EV) sales and registration to transpo
 ### References
 
 ### Potential Datasets
+[1] Transportion energy-related carbon dioxide emissions, https://www.eia.gov/environment/emissions/state/excel/transportation.xlsx  
 
+[2] DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017, https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1735 
+
+[3] U.S. Light-Duty Advanced Technology Vehicle (ATV) Sales* (2011–2019), https://autoalliance.org/energy-environment/advanced-technology-vehicle-sales-dashboard/ 
+
+[4] State EV Registration Data, https://www.atlasevhub.com/materials/state-ev-registration-data/ 
+
+[5] Monthly Plug-In EV Sales Scorecard: Historical Charts, https://insideevs.com/news/344007/monthly-plug-in-ev-sales-scorecard-historical-charts/ 

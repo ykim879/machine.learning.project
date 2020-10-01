@@ -1,13 +1,12 @@
-## Welcome to GitHub Pages
+## Analyzing CO2 Levels and Electric Car Sales 
 
 You can use the [editor on GitHub](https://github.com/ykim879/machine.learning.soccer/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Introduction/Background 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+Lowering CO2 emission is one of the most pressing struggles in the automotive industry, where there is a maximum CO2 emission limit imposed by the Environment Protection Agency that gets further reduced every calendar year. To meet the increasingly hard standards, millions of dollars are invested to make vehicle engines more fuel efficient. To combat the carbon impact of the Transportation industry, several automotive companies have invested in creating electric vehicles. Recent environmental decisions have raised the limit on CO2 emissions within the United States, but with an increase in electric vehicle popularity, there should be a correlation between the increase in vehicle sales and decrease in CO2 emissions. 
 ```markdown
 Syntax highlighted code block
 

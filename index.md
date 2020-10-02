@@ -21,11 +21,11 @@ For this project, we are trying to predict future yearly EV sales and subsequent
 
 ### References
 
-[1] Office of Transportation and Air Quality, A. Hula, R. French, A. Maguire, A. Bunker, and T. Rojeck, Environmental Protection Agency, 2020. Available: https://nepis.epa.gov/Exe/ZyPDF.cgi?Dockey=P100YVFS.pdf  
-
+[1] “Sources of Greenhouse Gas Emissions,” EPA, 09-Sep-2020. [Online]. Available: https://www.epa.gov/ghgemissions/sources-greenhouse-gas-emissions#transportation.  [Accessed: 01-Oct-2020].
+  
 [2] N. Popovich and D. Lu, “The Most Detailed Map of Auto Emissions in America,” The New York Times, 10-Oct-2019. [Online]. Available: https://www.nytimes.com/interactive/2019/10/10/climate/driving-emissions-map.html.  [Accessed: 01-Oct-2020].  
 
-[3] “Sources of Greenhouse Gas Emissions,” EPA, 09-Sep-2020. [Online]. Available: https://www.epa.gov/ghgemissions/sources-greenhouse-gas-emissions#transportation.  [Accessed: 01-Oct-2020].
+[3] Office of Transportation and Air Quality, A. Hula, R. French, A. Maguire, A. Bunker, and T. Rojeck, Environmental Protection Agency, 2020. Available: https://nepis.epa.gov/Exe/ZyPDF.cgi?Dockey=P100YVFS.pdf
 
 ### Potential Datasets
 

@@ -13,8 +13,14 @@ For this project, we will be looking at the datasets that presents data on CO2 e
 This project is relating electric vehicle (EV) sales and registration to transportation CO2 emissions, so potential results include using past trends in EV sales and CO2 emissions to predict transportation CO2 emissions for future years. This predictive model will be used for specific regions within the United States and potentially the European Union (i.e. states and countries respectively). In addition, another result could be another predictive model that predicts the number of EVs sold for each future year when given a desired CO2 emission for a future date. Ultimately, these results will help map out the future role EVs need to play in the fight to curtail CO2 emissions.
 
 ### Discussion
+For this project, we are trying to develop a model relating transportation to CO2 emissions to electric vehicle sales and registration. This is to ultimately predict future EV sales in specific states and their subsequent curtailing of CO2 emissions for future years. Therefore, a regression model will be used, which brings forth a potential problem: Increasing EV sales may not correlate to decreasing transportation CO2 emissions. This is because EV sales are largely residential, and we must consider the real-life implication that transportation CO2 emissions is not only from residential vehicle sales, but others such as commercial trucks, buses, etc. To help solve this, we may use current EV sale performances to predict future sales of upcoming electric commercial vehicles, such as Tesla’s Cybertruck, and their subsequent emissions impact. In addition, EV sales do not have a long history with current data only capturing sales as early as 2010, so future yearly predictions will only rely on yearly trends over 10 years.
 
 ### References
+[1] Office of Transportation and Air Quality, A. Hula, R. French, A. Maguire, A. Bunker, and T. Rojeck, Environmental Protection Agency, 2020. Available: https://nepis.epa.gov/Exe/ZyPDF.cgi?Dockey=P100YVFS.pdf  
+
+[2] N. Popovich and D. Lu, “The Most Detailed Map of Auto Emissions in America,” The New York Times, 10-Oct-2019. [Online]. Available: https://www.nytimes.com/interactive/2019/10/10/climate/driving-emissions-map.html.  [Accessed: 01-Oct-2020].  
+
+[3] “Sources of Greenhouse Gas Emissions,” EPA, 09-Sep-2020. [Online]. Available: https://www.epa.gov/ghgemissions/sources-greenhouse-gas-emissions#transportation.  [Accessed: 01-Oct-2020].
 
 ### Potential Datasets
 [1] Transportion energy-related carbon dioxide emissions, https://www.eia.gov/environment/emissions/state/excel/transportation.xlsx  

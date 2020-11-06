@@ -18,13 +18,62 @@ To develop a relationship between yearly electric vehicle sales and CO2 transpor
 
 To cluster each state into low-, medium-, and high-risk categories based on their transportation CO2 emissions, a k-means clustering algorithm was used. This is due to the risk designation being a hard categorization, so k-means is deemed effective over other clustering techniques such as gaussian mixture model. As previously mentioned, the features for this clustering are 1) transportation CO2 emissions during 2018 2) net change in transportation CO2 emissions from 2011-2018. This allows the clustering/risk categorization to be done based on both the current state and trends of emissions for each state. This new approach will help define states where EV sales should be promoted most seriously.   
 
-### Potential Results
+### Results
 
-This project is relating EV sales to transportation CO2 emissions, so potential results include predictions of future EV sales and their subsequent CO2 emissions for future years. This predictive model will be used for specific states within the United States. In addition, another result could be another predictive model that predicts the number of EVs sold for each future year when given a desired CO2 emission for a future date. Another result would be the grouping of states based on their transportation CO2 emissions and EV sales, which will ultimately highlight target regions for improving green transportation. Ultimately, these results will help map out the future role EVs need to play in the fight to curtail CO2 emissions.
+A [] regression slope, observed in Figure 1, shows the relationship between []. The slope equation is given as [] with a slope of []. The slope proves that the total sale of EV emissions is not significant enough to counter the exponential increase in internal combustion engine sales and their subsequent increase in carbon emission. This said, there is a marked yearly increase in EV sale that will eventually cap off
+
+To show how much EV sale contributes to CO2 emission, we used Linear Regression slope. Black dot below is the actual data and blue line is the linear regression calculated by the given data. The slope between EV sale and CO2 emission is 0.00013395. Which is positive and little small data. It shows increase of EV sale did not affect much on CO2 emission. The reason is that the increase of total vehicles outrated the EV sale therefore the EV sale increasement merely affect total CO2 emission but rather shows positive correlation.
+
+As seen in Figure 2, all 50 US states as well as the District of Columbia have been clustered into low-, medium-, and high-risk categories based on their transportation CO2 emissions. High recent CO2 emissions as well as high increases in CO2 emissions indicate high risk. The individual designations of each state can be seen in Table 1. While most medium and low risk states are clustered closely, the high-risk states of California and Texas account generate relatively much larger transportation CO2 emissions with Texas additionally experiencing much larger increases from 2011-2018.
+
+
+|     Low   Risk                |     Medium   Risk       |     High   Risk    |
+|-------------------------------|-------------------------|--------------------|
+|     Alabama                   |     Florida             |     California     |
+|     Alaska                    |     Georgia             |     Texas          |
+|     Arizona                   |     Illinois            |                    |
+|     Arkansas                  |     Indiana             |                    |
+|     Colorado                  |     Louisiana           |                    |
+|     Connecticut               |     Michigan            |                    |
+|     Delaware                  |     Missouri            |                    |
+|     District   of Columbia    |     New   Jersey        |                    |
+|     Hawaii                    |     New   York          |                    |
+|     Idaho                     |     North   Carolina    |                    |
+|     Iowa                      |     Ohio                |                    |
+|     Kansas                    |     Pennsylvania        |                    |
+|     Kentucky                  |     Tennessee           |                    |
+|     Maine                     |     Virginia            |                    |
+|     Maryland                  |     Washington          |                    |
+|     Massachusetts             |                         |                    |
+|     Minnesota                 |                         |                    |
+|     Mississippi               |                         |                    |
+|     Montana                   |                         |                    |
+|     Nebraska                  |                         |                    |
+|     Nevada                    |                         |                    |
+|     New   Hampshire           |                         |                    |
+|     New   Mexico              |                         |                    |
+|     North   Dakota            |                         |                    |
+|     Oklahoma                  |                         |                    |
+|     Oregon                    |                         |                    |
+|     Rhode   Island            |                         |                    |
+|     South   Carolina          |                         |                    |
+|     South   Dakota            |                         |                    |
+|     Utah                      |                         |                    |
+|     Vermont                   |                         |                    |
+|     West   Virginia           |                         |                    |
+|     Wisconsin                 |                         |                    |
+|     Wyoming                   |                         |                    |
 
 ### Discussion
 
 For this project, we are trying to predict future yearly EV sales and subsequent CO2 emissions for individual US states. Therefore, a regression analysis will be performed on yearly transportation CO2 emissions and electric vehicle sales over the past 10 years, which brings forth a potential problem: Increasing EV sales may not correlate to decreasing transportation CO2 emissions, because EV sales are largely residential while commercial vehicles (trucks, buses, etc.) also play a big role in CO2 emissions. To help solve this, we may use current EV sales trends to predict the future sales of upcoming commercial EVs, such as Tesla’s Cybertruck, and their subsequent emissions impact. In addition, EV sales do not have a long history with recorded sales starting in 2010, so future predictions will only rely on yearly trends over 10 years.
+
+The premise behind the project was based on whether an increase on electric vehicle sales could positively impact the rising CO2 emissions within the transportation industry. Based on the calculated values from the linear regression on the sales and emission data, it is determined that the volume of EV sales is not significant to overcome the impact of the marked increase in total vehicle sales bolstered by the prolonged advantage of the lowest gas prices in the last 15 years. 
+
+The k-means algorithm creates a 3-tier graph that groups the states based on their car sale volume and identifies which states would benefit from a marked increase in EV sales. Interestingly enough, the total population volume of California and Texas, the two states with the largest population in the United States, is responsible for their placement in the “high risk” state category, regardless of the fact that California and Texas also have the highest EV sales in the country.
+
+
+
 
 ### References
 

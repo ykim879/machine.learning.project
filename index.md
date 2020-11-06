@@ -12,11 +12,11 @@ To help determine the role EV sales has in curtailing CO2 emissions, this projec
 To develop models relating EV sales to transportation CO2 emissions, datasets were collected that detailed the yearly recorded measurements of transportation CO2 levels as well as vehicle sales - EV and non-EV sales - for each state within the United States. The CO2 emissions dataset was referenced from data.gov to ensure the collection of accurate government-sponsored data about the CO2 emissions in the United States. CO2 emissions were measured by million metric tons (Mt). External websites such as Auto Alliance were used to collect EV and non-EV sales data for each state, where sales are measured by number of vehicles. 
 
 The datasets detailing vehicles sales and transportation CO2 emissions were cleaned for corresponding clustering and regression models. Specifically, data corresponding to the time period of 2011 to 2018 was extracted due to that being the recorded starting period of EV sales due to the short history of modern electrical vehicles. For subsequent clustering, the CO2 emissions data was further cleaned to include 2 features with each state being a datapoint: 1) transportation CO2 emissions during 2018 2) net change in transportation CO2 emissions from 2011-2018. These features were chosen because they detail the current state and trends of emissions for each state. Therefore, states can be clustered into risk categories by current emissions and future paths. For regression models, the data for each state was summed to generate total, nationwide EV sales, non-EV sales, and CO2 emissions as seen in Table 1. These 3 features were chosen to create a multivariate linear regression model relating CO2 emissions to both EV sales and non-EV sales. This is due to the amount sales of non-EV vehicles also impacting CO2 emissions as aforementioned. In addition, the temporal dataset of total, nationwide transportation CO2 emissions and EV sales will be used to create additional regression models for prediction of future CO2 emissions and EV sales. 
-<p align="center">
+
 Table 1: Linear Regression Model Data
 
 ![Table 1: Linear Regression Model Data](/images/Picture1.png)
-<p>
+
 ### Methods
 
 To develop a relationship between yearly electric vehicle sales and CO2 transportation emissions, several regression models were developed. This offered a novel model that can be used to predict future transportation CO2 emissions based off the trends of EV sales relative to non-EV sales. Specifically, both a linear and polynomial regression model were developed. Creating a linear fit will effectively provide a preliminary model providing a general correlation between transportation CO2 emissions and EV sales and Non-EV sales. Generating a subsequent polynomial model will be more effective in creating a model for predicting CO2 emissions based on vehicle sales due to the expected relationship between CO2 emissions and EV and non-EV sales being non-linear. This is due to CO2 emissions created by road vehicles varying as a result of different gas mileages. Similarly, there will be an attempt to predict the increase in the volume of future sales based on past sale trends and identify whether there is an increase of EV sales when compared against the sales of internal combustion engine vehicles. A regression analysis will also be developed for the temporal data of transportation CO2 emissions and EV sales to predict corresponding CO2 emissions and EV sales of future years. A polynomial regression is effective due to the temporal data not being linear. 
@@ -40,42 +40,8 @@ As seen in Figure 2, all 50 US states as well as the District of Columbia have b
 Figure 2: K-means risk clustering of states based on transportation CO2 emissions 
 
 Table 2: List of US states and risk designation 
-|     Low   Risk                |     Medium   Risk       |     High   Risk    |
-|-------------------------------|-------------------------|--------------------|
-|     Alabama                   |     Florida             |     California     |
-|     Alaska                    |     Georgia             |     Texas          |
-|     Arizona                   |     Illinois            |                    |
-|     Arkansas                  |     Indiana             |                    |
-|     Colorado                  |     Louisiana           |                    |
-|     Connecticut               |     Michigan            |                    |
-|     Delaware                  |     Missouri            |                    |
-|     District   of Columbia    |     New   Jersey        |                    |
-|     Hawaii                    |     New   York          |                    |
-|     Idaho                     |     North   Carolina    |                    |
-|     Iowa                      |     Ohio                |                    |
-|     Kansas                    |     Pennsylvania        |                    |
-|     Kentucky                  |     Tennessee           |                    |
-|     Maine                     |     Virginia            |                    |
-|     Maryland                  |     Washington          |                    |
-|     Massachusetts             |                         |                    |
-|     Minnesota                 |                         |                    |
-|     Mississippi               |                         |                    |
-|     Montana                   |                         |                    |
-|     Nebraska                  |                         |                    |
-|     Nevada                    |                         |                    |
-|     New   Hampshire           |                         |                    |
-|     New   Mexico              |                         |                    |
-|     North   Dakota            |                         |                    |
-|     Oklahoma                  |                         |                    |
-|     Oregon                    |                         |                    |
-|     Rhode   Island            |                         |                    |
-|     South   Carolina          |                         |                    |
-|     South   Dakota            |                         |                    |
-|     Utah                      |                         |                    |
-|     Vermont                   |                         |                    |
-|     West   Virginia           |                         |                    |
-|     Wisconsin                 |                         |                    |
-|     Wyoming                   |                         |                    |
+
+![](/image/Picture4.png)
 
 ### Discussion
 

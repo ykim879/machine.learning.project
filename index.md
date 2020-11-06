@@ -41,7 +41,7 @@ Figure 2: K-means risk clustering of states based on transportation CO2 emission
 
 Table 2: List of US states and risk designation 
 
-![](/image/Picture4.png)
+![State Categorization](/image/Picture4.png)
 
 ### Discussion
 

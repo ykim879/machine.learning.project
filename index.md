@@ -15,10 +15,11 @@ The datasets detailing vehicles sales and transportation CO2 emissions were clea
 
 
 <p align="center">
+
 Table 1: Linear Regression Model Data
 
 ![Table 1: Linear Regression Model Data](/images/Picture1.png)
-<p>
+
 
 
 ### Methods

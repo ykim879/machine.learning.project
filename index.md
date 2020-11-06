@@ -28,6 +28,7 @@ A multivariate linear regression model, observed in Figure 1, relates the nation
 
 CO2 emissions =  3.87e−05 (EV Sales) +  2.17e−05 (Non−EV Sales) +  1499.46 [1] 
 
+!(/images/picture3.png)
 Figure 1: Linear Regression between CO2 Emissions, EV sales, and Non-EV sales 
 
 As seen in Figure 2, all 50 US states as well as the District of Columbia have been clustered into low-, medium-, and high-risk categories based on their transportation CO2 emissions relative to each other. High recent CO2 emissions as well as high increases in CO2 emissions indicate high risk. The individual designations of each state can be seen in Table 1. Majority of states (34) are categorized to be low risk while 15 states make up medium risk categories, which includes the state of Georgia. While most medium and low risk states are clustered closely, the high-risk states of California and Texas account generate relatively much larger transportation CO2 emissions with Texas additionally experiencing much larger increases from 2011-2018. The change in emissions in California is comparable to low-risk and medium-risk states, but experiences much higher absolute, yearly transportation CO2 emissions. 

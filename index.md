@@ -24,7 +24,9 @@ A [] regression slope, observed in Figure 1, shows the relationship between []. 
 
 To show how much EV sale contributes to CO2 emission, we used Linear Regression slope. Black dot below is the actual data and blue line is the linear regression calculated by the given data. The slope between EV sale and CO2 emission is 0.00013395. Which is positive and little small data. It shows increase of EV sale did not affect much on CO2 emission. The reason is that the increase of total vehicles outrated the EV sale therefore the EV sale increasement merely affect total CO2 emission but rather shows positive correlation.
 
-As seen in Figure 2, all 50 US states as well as the District of Columbia have been clustered into low-, medium-, and high-risk categories based on their transportation CO2 emissions. High recent CO2 emissions as well as high increases in CO2 emissions indicate high risk. The individual designations of each state can be seen in Table 1. While most medium and low risk states are clustered closely, the high-risk states of California and Texas account generate relatively much larger transportation CO2 emissions with Texas additionally experiencing much larger increases from 2011-2018.
+As seen in Figure below, all 50 US states as well as the District of Columbia have been clustered into low-, medium-, and high-risk categories based on their transportation CO2 emissions. High recent CO2 emissions as well as high increases in CO2 emissions indicate high risk. The individual designations of each state can be seen in Table 1. While most medium and low risk states are clustered closely, the high-risk states of California and Texas account generate relatively much larger transportation CO2 emissions with Texas additionally experiencing much larger increases from 2011-2018.
+
+![KMeans Map](/images/Picture2.png)
 
 
 |     Low   Risk                |     Medium   Risk       |     High   Risk    |

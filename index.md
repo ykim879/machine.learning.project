@@ -90,20 +90,16 @@ Future analysis for the project must be conducted to model the relationship more
 
 ### References
 
-[1] “Sources of Greenhouse Gas Emissions,” EPA, 09-Sep-2020. [Online]. Available: https://www.epa.gov/ghgemissions/sources-greenhouse-gas-emissions#transportation.  [Accessed: 01-Oct-2020].
-  
-[2] N. Popovich and D. Lu, “The Most Detailed Map of Auto Emissions in America,” The New York Times, 10-Oct-2019. [Online]. Available: https://www.nytimes.com/interactive/2019/10/10/climate/driving-emissions-map.html.  [Accessed: 01-Oct-2020].  
+[1] “Sources of Greenhouse Gas Emissions,” EPA, 09-Sep-2020. [Online]. Available: https://www.epa.gov/ghgemissions/sources-greenhouse-gas-emissions#transportation.  [Accessed: 01-Oct-2020]. 
 
-[3] Office of Transportation and Air Quality, A. Hula, R. French, A. Maguire, A. Bunker, and T. Rojeck, Environmental Protection Agency, 2020. Available: https://nepis.epa.gov/Exe/ZyPDF.cgi?Dockey=P100YVFS.pdf
+[2] N. Popovich and D. Lu, “The Most Detailed Map of Auto Emissions in America,” The New York Times, 10-Oct-2019. [Online]. Available: https://www.nytimes.com/interactive/2019/10/10/climate/driving-emissions-map.html.  [Accessed: 01-Oct-2020]. 
 
-### Potential Datasets
+[3] Office of Transportation and Air Quality, A. Hula, R. French, A. Maguire, A. Bunker, and T. Rojeck, Environmental Protection Agency, 2020. Available: https://nepis.epa.gov/Exe/ZyPDF.cgi?Dockey=P100YVFS.pdf  
 
-[1] Transportion energy-related carbon dioxide emissions, https://www.eia.gov/environment/emissions/state/excel/transportation.xlsx  
+### Datasets
 
-[2] DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017, https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1735 
+[1] Transportation energy-related carbon dioxide emissions, https://www.eia.gov/environment/emissions/state/excel/transportation.xlsx  
 
-[3] U.S. Light-Duty Advanced Technology Vehicle (ATV) Sales* (2011–2019), https://autoalliance.org/energy-environment/advanced-technology-vehicle-sales-dashboard/ 
+[2] U.S. Light-Duty Advanced Technology Vehicle (ATV) Sales* (2011–2019), https://autoalliance.org/energy-environment/advanced-technology-vehicle-sales-dashboard/ 
 
-[4] State EV Registration Data, https://www.atlasevhub.com/materials/state-ev-registration-data/ 
-
-[5] Monthly Plug-In EV Sales Scorecard: Historical Charts, https://insideevs.com/news/344007/monthly-plug-in-ev-sales-scorecard-historical-charts/ 
+[3] Overall U.S. Auto Industry Sales Figures, https://www.goodcarbadcar.net/usa-auto-industry-total-sales-figures/ 

@@ -14,7 +14,7 @@ To develop models relating EV sales to transportation CO2 emissions, datasets we
 The datasets detailing vehicles sales and transportation CO2 emissions were cleaned for corresponding clustering and regression models. Specifically, data corresponding to the time period of 2011 to 2018 was extracted due to that being the recorded starting period of EV sales due to the short history of modern electrical vehicles. For subsequent clustering, the CO2 emissions data was further cleaned to include 2 features with each state being a datapoint: 1) transportation CO2 emissions during 2018 2) net change in transportation CO2 emissions from 2011-2018. These features were chosen because they detail the current state and trends of emissions for each state. Therefore, states can be clustered into risk categories by current emissions and future paths. For regression models, the data for each state was summed to generate total, nationwide EV sales, non-EV sales, and CO2 emissions as seen in Table 1. These 3 features were chosen to create a multivariate linear regression model relating CO2 emissions to both EV sales and non-EV sales. This is due to the amount sales of non-EV vehicles also impacting CO2 emissions as aforementioned. In addition, the temporal dataset of total, nationwide transportation CO2 emissions and EV sales will be used to create additional regression models for prediction of future CO2 emissions and EV sales. 
 
 <p align="center">
-  Table 1: Linear Regression Model Data\\
+  Table 1: Linear Regression Model Data
 </p>
 <p align="center">
   <img width="460" height="300" src="/images/Picture1.png">

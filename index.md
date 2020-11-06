@@ -13,11 +13,11 @@ To develop models relating EV sales to transportation CO2 emissions, datasets we
 
 The datasets detailing vehicles sales and transportation CO2 emissions were cleaned for corresponding clustering and regression models. Specifically, data corresponding to the time period of 2011 to 2018 was extracted due to that being the recorded starting period of EV sales due to the short history of modern electrical vehicles. For subsequent clustering, the CO2 emissions data was further cleaned to include 2 features with each state being a datapoint: 1) transportation CO2 emissions during 2018 2) net change in transportation CO2 emissions from 2011-2018. These features were chosen because they detail the current state and trends of emissions for each state. Therefore, states can be clustered into risk categories by current emissions and future paths. For regression models, the data for each state was summed to generate total, nationwide EV sales, non-EV sales, and CO2 emissions as seen in Table 1. These 3 features were chosen to create a multivariate linear regression model relating CO2 emissions to both EV sales and non-EV sales. This is due to the amount sales of non-EV vehicles also impacting CO2 emissions as aforementioned. In addition, the temporal dataset of total, nationwide transportation CO2 emissions and EV sales will be used to create additional regression models for prediction of future CO2 emissions and EV sales. 
 
-<p align="center">
+
 Table 1: Linear Regression Model Data
-<p>
   
 ![](/images/Picture1.png)
+
 
 ### Methods
 
@@ -29,21 +29,27 @@ To cluster each state into low-, medium-, and high-risk categories based on thei
 
 A multivariate linear regression model, observed in Figure 1, relates the nationwide transportation CO2 emissions to the EV and non-EV sales. As seen by Equation [1], the multivariate linear model details the transportation CO2 emissions having a positive relationship with both EV and Non-EV sales, even though EV do not contribute to CO2 emissions in real life. Specifically, this linear model predicts the one EV car sale to contribute 3.87e-05 Mt of CO2 (38700 Kg) a year. 
 
+
 CO2 emissions =  3.87e−05 (EV Sales) +  2.17e−05 (Non−EV Sales) +  1499.46 [1] 
+
 
 ![](/images/picture3.png)
 
 Figure 1: Linear Regression between CO2 Emissions, EV sales, and Non-EV sales 
 
+
 As seen in Figure 2, all 50 US states as well as the District of Columbia have been clustered into low-, medium-, and high-risk categories based on their transportation CO2 emissions relative to each other. High recent CO2 emissions as well as high increases in CO2 emissions indicate high risk. The individual designations of each state can be seen in Table 2. Majority of states (34) are categorized to be low risk while 15 states make up medium risk categories, which includes the state of Georgia. While most medium and low risk states are clustered closely, the high-risk states of California and Texas account generate relatively much larger transportation CO2 emissions with Texas additionally experiencing much larger increases from 2011-2018. The change in emissions in California is comparable to low-risk and medium-risk states, but experiences much higher absolute, yearly transportation CO2 emissions. 
+
 
 ![KMeans Map](/images/Picture2.png)
 
 Figure 2: K-means risk clustering of states based on transportation CO2 emissions 
 
+
 Table 2: List of US states and risk designation 
 
 ![State Categorization](/images/picture4.png)
+
 
 ### Discussion
 

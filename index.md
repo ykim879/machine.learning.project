@@ -28,12 +28,13 @@ To cluster each state into low-, medium-, and high-risk categories based on thei
 A multivariate linear regression model, observed in Figure 1, relates the nationwide transportation CO2 emissions to the EV and non-EV sales. As seen by Equation [1], the multivariate linear model details the transportation CO2 emissions having a positive relationship with both EV and Non-EV sales, even though EV do not contribute to CO2 emissions in real life. Specifically, this linear model predicts the one EV car sale to contribute 3.87e-05 Mt of CO2 (38700 Kg) a year. 
 
 CO2 emissions =  3.87e−05 (EV Sales) +  2.17e−05 (Non−EV Sales) +  1499.46 [1] 
-
+\begin{center}
 ![](/images/picture3.png)
-
+\end{center}
 Figure 1: Linear Regression between CO2 Emissions, EV sales, and Non-EV sales 
 
 As seen in Figure 2, all 50 US states as well as the District of Columbia have been clustered into low-, medium-, and high-risk categories based on their transportation CO2 emissions relative to each other. High recent CO2 emissions as well as high increases in CO2 emissions indicate high risk. The individual designations of each state can be seen in Table 2. Majority of states (34) are categorized to be low risk while 15 states make up medium risk categories, which includes the state of Georgia. While most medium and low risk states are clustered closely, the high-risk states of California and Texas account generate relatively much larger transportation CO2 emissions with Texas additionally experiencing much larger increases from 2011-2018. The change in emissions in California is comparable to low-risk and medium-risk states, but experiences much higher absolute, yearly transportation CO2 emissions. 
+
 \begin{center}
 ![KMeans Map](/images/Picture2.png)
 \end{center}

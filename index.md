@@ -78,6 +78,8 @@ Future analysis for the project must be conducted to model the relationship more
 
 [3] Office of Transportation and Air Quality, A. Hula, R. French, A. Maguire, A. Bunker, and T. Rojeck, Environmental Protection Agency, 2020. Available: https://nepis.epa.gov/Exe/ZyPDF.cgi?Dockey=P100YVFS.pdf  
 
+[4] Sullivan, C. (2019, February 05). National Climate Assessment: States and cities are already reducing carbon emissions to save lives and dollars: NOAA Climate.gov. Retrieved December 08, 2020, from https://www.climate.gov/news-features/featured-images/national-climate-assessment-states-and-cities-are-already-reducing 
+
 ### Datasets
 
 [1] Transportation energy-related carbon dioxide emissions, https://www.eia.gov/environment/emissions/state/excel/transportation.xlsx  

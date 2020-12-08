@@ -11,12 +11,6 @@ To help determine the role electric vehicle sales have in curtailing CO2 emissio
 To develop models relating EV sales to transportation CO2 emissions, datasets were collected that detailed the yearly recorded measurements of transportation CO2 levels as well as vehicle sales - ATVs and non-EV sales - for each state within the United States. The CO2 emissions dataset was referenced from data.gov to ensure the collection of accurate government-sponsored data about the CO2 emissions in the United States. CO2 emissions were measured by million metric tons (Mt). External websites such as Auto Alliance were used to collect data for EV, HEV, and PHEV for each state, where sales are measured by number of vehicles. 
 The datasets detailing vehicles sales and transportation CO2 emissions were cleaned for corresponding clustering and regression models. Specifically, data corresponding to the time period of 2011 to 2018 was extracted due to that being the recorded starting period of electric sales due to the short history of modern electrical vehicles. For subsequent clustering, the CO2 emissions data was further cleaned to include 6 features with each state being a datapoint: 1) transportation CO2 emissions during 2018, 2) net change in transportation CO2 emissions from 2011-2018, 3) total vehicle registrations in 2018 4) total vehicle sales from 2011-2018 for EV, HEV, and PHEV. These features were chosen because they detail the current state and trends of emissions for each state. Therefore, states can be clustered into risk categories by current emissions and future paths. For regression models, the data for each state was summed to generate total, nationwide ATV sales total, non-EV sales, and CO2 emissions as seen in Table 1. These 3 features were chosen to create a multivariate linear regression model relating CO2 emissions to both EV sales and non-EV sales. This is due to the amount sales of non-EV vehicles also impacting CO2 emissions as aforementioned. In addition, the temporal dataset of total, nationwide transportation CO2 emissions and EV sales will be used to create additional regression models for prediction of future CO2 emissions and EV sales. 
 
-<p align="center">
-  Table 1: Linear Regression Model Data
-</p>
-<p align="center">
-  <img src="https://github.com/ykim879/machine.learning.project/blob/gh-pages/report_images/linear%20regression%20data.png">
-</p>
 
 ### Methods
 
@@ -96,7 +90,7 @@ Future analysis for the project must be conducted to model the relationship more
 
 [5] Commute Mode, https://www.bts.gov/commute-mode 
 
-[6] Alternative Fuel Stations, https://www.bts.gov/alternative-fuel-stations 
+[6] PHEV Sales Per State Per Year 2011-2018
 
 [7] State Highway Travel, https://www.bts.gov/state-highway-travel 
 
@@ -105,3 +99,7 @@ Future analysis for the project must be conducted to model the relationship more
 [9] Weekly California All Grades All Formulations Retail Gasoline Prices  (Dollars per Gallon), https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=EMM_EPM0_PTE_SCA_DPG&f=W 
 
 [10] Weekly Texas Regular All Formulations Retail Gasoline Prices  (Dollars per Gallon), https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=EMM_EPMR_PTE_STX_DPG&f=W 
+
+[11] Highway Vehicles by State 2011-2018
+
+[12] Total registered vehicles 2011-2018

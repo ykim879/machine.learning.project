@@ -111,7 +111,7 @@ The polynomial regression models showed the importance of gas prices when consid
 
 ### Conclusion
 
-The premise behind the project was based on whether an increase on electric vehicle sales could positively impact the rising CO2 emissions within the transportation industry. Based on the calculated values from the linear regression on the sales and emission data, it is determined that the volume of EV sales is not significant to overcome the impact of the marked increase in total vehicle sales bolstered by the prolonged advantage of the lowest gas prices in the last 15 years.   
+The premise behind the project was based on whether an increase in advanced technology vehicle sales could positively impact the rising CO2 emissions within the transportation industry. Based on the calculated values from the linear regression on the sales and emission data, it is determined that the volume of EV sales is not significant to overcome the impact of the marked increase in total vehicle sales bolstered by the prolonged advantage of the lowest gas prices in the last 15 years.   
 
 The k-means algorithm creates a risk categorization that groups each state based on its transportation CO2 emissions. This identifies which states would benefit from a marked increase in EV sales. Based on their high-risk categorization, it is recommended that EV sale promotions be emphasized in California, Florida, and Texas. Texas specifically has shown the greatest increase in transportation CO2 emissions since 2010 in addition to having the greatest current CO2 emissions based on emissions last recorded in 2018.  
 
